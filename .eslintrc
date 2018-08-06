@@ -1,0 +1,46 @@
+{
+    "extends": "airbnb",
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+        "comma-dangle": ["error","never"],
+        "linebreak-style": "off",
+        "strict": ["off", "global"],
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/anchor-has-content": "off",
+        "jsx-a11y/anchor-is-valid": "off",
+        "jsx-a11y/label-has-for": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "no-console": ["warn", { "allow": ["info", "error"] }],
+        "no-restricted-properties": ["off", {
+          "Math": "pow"
+        }],
+        
+        "eol-last":0,
+        "class-methods-use-this": 0,
+        "max-len": 0,
+        "react/jsx-indent": 0,
+        "react/prop-types": 0,
+        "react/jsx-curly-spacing": 0,
+        "react/no-did-mount-set-state": 0,
+        "react/no-string-refs": 0,
+        "array-callback-return": 0,
+        "arrow-parens": 0,
+        "arrow-body-style": 0,
+        "no-plusplus": 0,
+        "no-else-return": 0,
+        "no-param-reassign": 0,
+        "no-lonely-if": 0,
+        "no-multi-spaces": 0,
+
+        "object-curly-newline": 0,
+        "prefer-template": 0,
+        "dot-notation": 0
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ]
+}
